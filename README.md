@@ -4,7 +4,7 @@ kutubxonalardan foydalanish uchun link pastda
 # 1-qadam 
 build.gradle (Project) ga qo'shib qo'ying 
 
-       maven { url "https://jitpack.io"}
+    maven { url "https://jitpack.io"}
          
 # 2-qadam
 build.gradle (Module) ga qo'shib qo'ying
