@@ -25,9 +25,7 @@ activity.xml   ga yuklang
 
 # 5-qadam
 
-PDFView pdfView = findViewById(R.id.pdfView);
-
-
+        PDFView pdfView = findViewById(R.id.pdfView);
         pdfView.fromAsset("file.pdf")
                 .password(null)
                 .defaultPage(0)
