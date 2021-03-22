@@ -3,14 +3,18 @@ Android Studio dan foydalangan  holda PDF Reader yaratish (java tilida). Bu dast
 kutubxonalardan foydalanish uchun link pastda
 # 1-qadam 
 build.gradle (Project) ga qo'shib qo'ying 
-    maven { url "https://jitpack.io"}
+
+       maven { url "https://jitpack.io"}
+         
 # 2-qadam
 build.gradle (Module) ga qo'shib qo'ying
+
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
     
 # 3-qadam
 activity.xml   ga yuklang
-<com.github.barteksc.pdfviewer.PDFView
+
+    <com.github.barteksc.pdfviewer.PDFView
         android:id="@+id/pdfView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
