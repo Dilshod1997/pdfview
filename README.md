@@ -20,6 +20,7 @@ activity.xml   ga yuklang
 ![image](https://user-images.githubusercontent.com/46724332/111953235-950ea780-8aa3-11eb-8734-1a36a19fbd76.png)
 
 # 5-qadam
+
 PDFView pdfView = findViewById(R.id.pdfView);
 
 
